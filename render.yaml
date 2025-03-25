@@ -1,0 +1,14 @@
+# Exported from Render on 2025-03-25T20:07:32Z
+services:
+- type: web
+  name: fastapi
+  runtime: python
+  repo: https://github.com/xtet2008/fastapi-hello-world
+  plan: free
+  region: singapore
+  buildCommand: pip install -r requirements.txt
+  startCommand: uvicorn main:app --host 0.0.0.0 --port 80
+  domains:
+  - api.xtet.top
+version: "1"
+
