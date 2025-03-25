@@ -1,0 +1,102 @@
+config.conf
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+docs/_build
+venv
+
+playbook/site.retry
+
+# Installer logs
+pip-log.txt
+
+# sqlite db
+*.db
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Complexity
+output/*.html
+output/*/index.html
+
+# Sphinx
+docs/_build
+
+.webassets-cache
+
+# Virtualenvs
+env
+env*
+
+
+# assets generated files
+#app/static
+
+.DS_Store
+.swp
+dev.sh
+app.sublime-project
+
+app/LocalConfig.yaml
+tags
+
+venv/
+.idea/
+.vscode/
+migrations/
+test.py
+./test.py
+
+app/commands/classrooms.json
+
+# redis cache file
+dump.rdb
+logs/
+
+# ln -s xxx link data
+data
+
+.qiniu_pythonsdk_hostscache.json
+
+
+alembic
+alembic.ini
+
+*.log
+.run/
+.run
+
+
+/.run/
+
+push_aws_ecs.sh
+push_dev.sh
+push_singapore.sh
+push_beta.sh
